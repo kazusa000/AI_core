@@ -1,0 +1,25 @@
+# ai_core main environment (shared services + default local backends)
+
+# HTTP services
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# Audio core
+numpy>=1.24.0
+soundfile>=0.12.1
+sounddevice>=0.4.6
+webrtcvad-wheels>=2.0.14
+
+# ASR backends in ai_core env
+funasr>=1.2.0
+faster-whisper>=1.0.0
+onnxruntime>=1.17.0
+
+# LLM backends in ai_core env
+google-genai>=1.0.0
+transformers>=4.46.0
+torch>=2.4.0
+
+# TTS local backend in ai_core env
+genie-tts>=0.4.2

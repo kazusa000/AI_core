@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets / local config
+.env
+.env.*
+*.pem
+*.key
+
+# Runtime logs / temp
+*.log
+logs/
+/tmp/
+
+# Generated outputs
+out/*.wav
+out/*.mp3
+out/*.flac
+
+# Local certs (dev)
+certs/*.key
+certs/*.crt
+
+# Large model artifacts (do not commit)
+src/tts/Genie_tts/GenieData/
+src/tts/Genie_tts/CharacterModels/
+src/tts/GPT_Sovits_tts/GPT-SoVITS/
+
+# OS files
+.DS_Store
+Thumbs.db
+out/

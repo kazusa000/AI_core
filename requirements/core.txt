@@ -1,0 +1,4 @@
+# Locked/install target for ai_core main env.
+# Keep this file human-editable for now; if you adopt pip-tools later,
+# generate this file from requirements/core.in.
+-r core.in
